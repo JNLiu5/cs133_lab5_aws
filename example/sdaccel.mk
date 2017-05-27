@@ -81,5 +81,5 @@ HOST_ARGS = ${XCLBIN}
 hls:
 	xocc -c -s -t hw_emu -o kernel_top.xo --xdevice ${XDEVICE} --report estimate --kernel ${KERNEL_NAME} ${KERNEL_SRCS}	
 
-COMMON_DIR = /usr/local/cs133/Xilinx/SDx/2016.4/examples/common
+COMMON_DIR = /opt/Xilinx/SDx/2016.4/examples/common
 include ${COMMON_DIR}/common.mk

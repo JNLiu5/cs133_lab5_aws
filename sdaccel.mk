@@ -82,5 +82,5 @@ hls:
 
 HOST_ARGS = ${XCLBIN}
 
-COMMON_DIR = /usr/local/cs133/Xilinx/SDx/2016.4/examples/common
+COMMON_DIR = /opt/Xilinx/SDx/2016.4/examples/common
 include ${COMMON_DIR}/common.mk
